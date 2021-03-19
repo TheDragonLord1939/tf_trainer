@@ -1,0 +1,17 @@
+lang,int,1000,1,lang,0
+real_click_list_seq,sequence,5000000,50,real_click_list_seq,0
+show_not_click_list,Sequence,5000000,20,show_not_click_list,0
+user_tag,Sequence,2000000,10,user_tag,0
+user_short_tag,Sequence,2000000,10,user_short_tag,0
+user_label,Sequence,10000,12,user_label,0
+user_short_labels,Sequence,10000,10,user_short_labels,0
+user_real_labels_pos,Sequence,10000,10,user_real_labels_pos,0
+user_real_labels_neg,Sequence,10000,10,user_real_labels_neg,0
+user_real_kw_pos,Sequence,2000000,20,user_real_kw_pos,0
+user_real_kw_neg,Sequence,2000000,20,user_real_kw_neg,0
+item_id,Int,5000000,1,item_id,1
+duration,Int,100000,1,duration,1
+final_label1,Sequence,10000,3,final_label1,1
+final_label2,Sequence,10000,3,final_label2,1
+final_label3,Sequence,10000,3,final_label3,1
+tags,Sequence,2000000,10,tags,1

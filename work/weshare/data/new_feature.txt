@@ -1,0 +1,11 @@
+#field_name size
+resolution 10000
+carrier 10000
+phone_brand_price 50000
+phone_brand 10000
+age 100
+gender 100
+religion 100
+user_ad_dmp_active_interest 1000
+user_ad_dmp_interest 1000
+update_time 10000

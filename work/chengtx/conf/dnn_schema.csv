@@ -1,0 +1,9 @@
+user_active,Int,2,,user_active
+user_type,Int,3,,user_type
+user_lang,Sequence,9,8,lang
+play_item_list,Weight_Sequence,1000001,50,item_id
+duration_list,Vector,1,50,duration
+author_list,Sequence,100001,50,author
+lang_list,Weight_Sequence,9,8,lang
+label_list,Weight_Sequence,101,10,label
+tag_list,Weight_Sequence,100001,10,tag

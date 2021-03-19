@@ -1,0 +1,12 @@
+request_lang,int,1000,1,request_lang
+user_source_user,sequence,200000,10,user_source_user
+real_click_list_seq,sequence,5000000,50,real_click_list_seq
+show_not_click_list,sequence,5000000,20,show_not_click_list
+user_tag,sequence,2000000,10,user_tag
+user_short_tag,sequence,2000000,10,user_short_tag
+user_label,sequence,10000,12,user_label
+user_short_labels,sequence,10000,10,user_short_labels
+user_real_labels_pos,sequence,10000,10,user_real_labels_pos
+user_real_labels_neg,sequence,10000,10,user_real_labels_neg
+user_real_kw_pos,sequence,2000000,20,user_real_kw_pos
+user_real_kw_neg,sequence,2000000,20,user_real_kw_neg

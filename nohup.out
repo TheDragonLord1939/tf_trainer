@@ -1,0 +1,22 @@
+20210318
+[32;1m[2021-03-19 09:09:46] [NOTICE] work_dir=/root/nt_ad_tf_trainer/work_dir/ads_effective_nt//20210318[0m
+[32;1m[2021-03-19 09:09:46] [NOTICE] mhd_save_dir=/root/ads_train_data/[0m
+[32;1m[2021-03-19 09:09:46] [NOTICE] ssd_save_dir=/root/ads_train_data/[0m
+[32;1m[2021-03-19 09:09:46] [NOTICE] Starting generating feature map[0m
+[32;1m[2021-03-19 09:09:46] [NOTICE] Finished generating feature map[0m
+[32;1m[2021-03-19 09:09:46] [NOTICE] Starting generating training cfg[0m
+[32;1m[2021-03-19 09:09:46] [NOTICE] Finished generating training cfg[0m
+[32;1m[2021-03-19 09:09:46] [NOTICE] Starting training model[0m
+[32;1m[2021-03-19 09:27:45] [NOTICE] Finished training model[0m
+[32;1m[2021-03-19 09:27:45] [NOTICE] Starting backup increment model[0m
+[32;1m[2021-03-19 09:27:45] [NOTICE] Finished backup increment model[0m
+[32;1m[2021-03-19 09:27:45] [NOTICE] Starting collecting model of 20210318[0m
+cp: will not overwrite just-created '/root/nt_ad_tf_trainer/online_dict/ads_effective_nt/20210318/saved_model.pb' with '/root/nt_ad_tf_trainer/work_dir/ads_effective_nt//20210318/summaries/default_ads_effective/export/best/1616146042/saved_model.pb'
+[32;1m[2021-03-19 09:27:46] [NOTICE] Finished collecting model of 20210318[0m
+[32;1m[2021-03-19 09:27:46] [NOTICE] predict_py_route=./main.py[0m
+[32;1m[2021-03-19 09:27:46] [NOTICE] Starting predicting with model=/root/nt_ad_tf_trainer/work_dir/ads_effective_nt//20210318/summaries/default_ads_effective[0m
+[32;1m[2021-03-19 09:28:37] [NOTICE] Finished predicting with model=/root/nt_ad_tf_trainer/work_dir/ads_effective_nt//20210318/summaries/default_ads_effective[0m
+[32;1m[2021-03-19 09:28:37] [NOTICE] Starting calculating metrics[0m
+[32;1m[2021-03-19 09:28:38] [NOTICE] Finished calculating metrics[0m
+[32;1m[2021-03-19 09:28:38] [NOTICE] Starting importing monitor of 20210318[0m
+[32;1m[2021-03-19 09:30:48] [NOTICE] Finished importing monitor of 20210318, ret=0[0m

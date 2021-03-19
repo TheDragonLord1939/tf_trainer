@@ -1,0 +1,15 @@
+left_user_active,Int,2,,user_active
+left_user_type,Int,3,,user_type
+left_user_lang,Sequence,9,8,lang
+left_click_list,Weight_Sequence,1000001,50,item_id
+left_duration_list,Vector,1,50,duration
+left_author_list,Sequence,100001,50,author
+left_lang_list,Weight_Sequence,9,8,lang
+left_label_list,Weight_Sequence,101,10,label
+left_tag_list,Weight_Sequence,100001,10,tag
+right_item,Int,1000001,,item_id
+right_duration,Double,1,6,duration
+right_author,Int,100001,6,author
+right_lang,Sequence,9,8,lang
+right_label,Weight_Sequence,101,10,label
+right_tag,Weight_Sequence,100001,10,tag
