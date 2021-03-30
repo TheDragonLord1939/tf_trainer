@@ -946,7 +946,7 @@ function pipeline2()
           predict ${work_dir} ${log_path} ${TST_VALID_FLAG} ${date}
 
           # monitor
-          monitor ${date} ${log_path} ${work_dir} ${TST_VALID_FLAG} "test"
+          #monitor ${date} ${log_path} ${work_dir} ${TST_VALID_FLAG} "test"
 
           error=$?
           if [ ${error} -gt 0 ]; then
